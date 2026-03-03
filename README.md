@@ -5,6 +5,7 @@ Organize your tasks into *Todo → In Progress → Done* with a clean UI and smo
 
 ---
 
+
 ## ✨ Features
 
 * 📝 Add tasks instantly
@@ -17,6 +18,8 @@ Organize your tasks into *Todo → In Progress → Done* with a clean UI and smo
 ---
 
 ## 📸 Screenshots
+
+> 📂 All screenshots are stored inside: `public/screenshots/`
 
 ### 🧾 Board View
 
@@ -75,7 +78,7 @@ npm run build
 ```
 kanban-board/
 │── public/
-│   └── screenshots/
+│   └── screenshots/   ← 📸 screenshots stored here
 │── src/
 │   ├── App.jsx
 │   ├── index.css
