@@ -1,16 +1,119 @@
-# React + Vite
+# 🚀 Kanban Board (Task Manager)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and minimal **Kanban Task Management App** built using **React + Vite**.
+Organize your tasks into *Todo → In Progress → Done* with a clean UI and smooth experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+* 📝 Add tasks instantly
+* ✏️ Edit tasks anytime
+* ❌ Delete tasks
+* 🌙 Dark / Light mode toggle
+* 💾 Data saved in Local Storage
+* 🎨 Glassmorphism UI with modern design
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧾 Board View
+
+![Board](public/screenshots/board.png)
+
+### ➕ Add Task
+
+![Add Task](public/screenshots/add.png)
+
+### ✏️ Edit Task
+
+![Edit Task](public/screenshots/edit.png)
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React (Vite)
+* 🎨 CSS (Custom styling)
+* 💾 Local Storage (Persistence)
+* 🚀 Vercel (Deployment)
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aanyaagrawal26/kanban-board.git
+cd kanban-board
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📁 Project Structure
+
+```
+kanban-board/
+│── public/
+│   └── screenshots/
+│── src/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using **Vercel**.
+
+To deploy:
+
+1. Push code to GitHub
+2. Import repo in Vercel
+3. Click Deploy
+
+---
+
+## 💡 Future Improvements
+
+* 🔄 Drag & Drop functionality
+* 📅 Due dates & priority tags
+* 🔔 Notifications
+* 📱 Mobile responsiveness improvements
+
+---
+
+## 🙌 Author
+
+**Aanya Agrawal**
+💻 BTech CSE Student
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub — it helps a lot!
